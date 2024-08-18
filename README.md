@@ -3,42 +3,38 @@
 Okay, kho lưu trữ này mình tạo ra với mục đích chia sẻ các bài code python trên CodePTIT. Mình sẽ cố gắng thêm cả các bài khi kiểm tra nữa!
 Rất mong nhận được một ⭐ từ các bạn.
 
-## Đầu tiên hãy setup một môi trường ảo trong Python với tên "venv"
+## Follow các bước dưới đây để chạy code trên máy của bạn:
 
-### Step 1: Create a Virtual Environment
+### Bước 1: Clone Repository
+```bash
+git clone https://github.com/mellivora24/PythonPTIT.git
+```
 
-Navigate to the project directory and create a virtual environment:
-
+### Bước 2: Setup môi trường ảo
+Mở thư mục chứa mã nguồn và chạy lệnh sau trên terminal:
 ```bash
 python -m venv venv
 ```
 
-### Step 2: Activate the Virtual Environment
-
-- **Windows:**
-
+### Bước 3: Kích hoạt môi trường ảo
+- **Với Windows:**
   ```bash
   venv\Scripts\activate
   ```
 
-- **macOS/Linux:**
-
+- **Với macOS/Linux:**
   ```bash
   source venv/bin/activate
   ```
 
-### Step 3: Install Dependencies
-
-If there are any dependencies required, install them using:
-
+### Bước 4: Cài đặt các thư viện cần thiết
+Nếu bạn chưa cài đặt các thư viện cần thiết, hãy chạy lệnh sau:
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 4: Deactivate the Virtual Environment
-
-After you're done, deactivate the virtual environment with:
-
+### Bước 5: Ngắt kết nối với môi trường ảo
+Nếu bạn đã hoàn thành việc chạy code, hãy chạy lệnh sau để ngắt kết nối với môi trường ảo:
 ```bash
 deactivate
 ```
