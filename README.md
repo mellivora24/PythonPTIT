@@ -38,3 +38,5 @@ Nếu bạn đã hoàn thành việc chạy code, hãy chạy lệnh sau để n
 ```bash
 deactivate
 ```
+
+<img src="https://komarev.com/ghpvc/?username=thanhquyet24ptit">
